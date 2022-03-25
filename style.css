@@ -26,8 +26,9 @@ body {
     display: inline-block;
     height: 200px;
     width: 200px;
-    padding: 25px;
+    padding: 10px;
     padding-bottom: 0;
+    object-position: center;
     
 }
 
@@ -35,7 +36,7 @@ body {
     color: red;
     text-align: center;
     font-size: large;
-    padding: 0px 25px 5px 25px;
+    padding: 10px 25px 5px 25px;
     width: 200px;
     text-transform: uppercase;
 }
