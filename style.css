@@ -18,33 +18,49 @@ body {
 }
 
 .elements {
+    position: relative;
     display: inline-block;
-    width: 245px;
-    padding: 10px;
+    width: 246px;
+    padding-top: 10px;
 }
 .elements > img {
     display: inline-block;
     height: 200px;
     width: 200px;
-    padding: 10px;
-    padding-bottom: 0;
-    object-position: center;
+    padding: 15px;
+    margin-left: 15px;
+    
     
 }
 
 .elements > h1 {
+    display: inline-block;
     color: red;
     text-align: center;
     font-size: large;
     padding: 10px 25px 5px 25px;
-    width: 200px;
+    width: 245px;
     text-transform: uppercase;
 }
 
-.elements > p {
-    padding: 0px 25px 0 25px;
-    width: 200px;
+.elements > .p-apacia {
+    display: inline-block;
+    padding: 0 10px 10px 0px;
+    width: 245px;
     text-align: center;
     font-size: small;
     color: rgb(104, 99, 99);
+}
+.elements > .p-virsus{
+    position: absolute;
+    top: 0;
+    left: 5px;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px;
+    
 }
