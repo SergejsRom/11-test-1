@@ -23,14 +23,20 @@ body {
     width: 246px;
     padding-top: 10px;
 }
-.elements > img {
+
+.imgdiv {
+    margin: 15px;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+}
+img {
     display: inline-block;
     height: 200px;
     width: 200px;
-    padding: 15px;
-    margin-left: 15px;
+    padding: 20px;
     
-    
+    filter: invert(100%);
 }
 
 .elements > h1 {
@@ -53,8 +59,8 @@ body {
 }
 .elements > .p-virsus{
     position: absolute;
-    top: 0;
-    left: 5px;
+    top: 10px;
+    left: 0;
     width: 35px;
     height: 35px;
     background-color: white;
@@ -62,5 +68,5 @@ body {
     border-radius: 20px;
     padding: 5px;
     border: 2px;
-    
+    line-height: 21px;
 }
