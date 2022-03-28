@@ -71,3 +71,14 @@ img {
     border: 2px;
     line-height: 21px;
 }
+svg {
+    width: 200px;
+    
+}
+
+ol {
+    display: inline-block;
+}
+li {
+    display: inline-block;
+}
